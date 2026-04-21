@@ -21,7 +21,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		type: "playlist",
 
 		// 歌单/专辑/单曲 ID 或搜索关键词
-		id: "17654759644", // 网易云音乐歌单ID示例
+		id: "17851754423", // 网易云音乐歌单ID示例
 
 		// 认证 token（可选）
 		auth: "",
