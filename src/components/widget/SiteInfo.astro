@@ -78,7 +78,7 @@ const archMap: Record<string, string> = {
 	arm: "ARM",
 	ia32: "x86",
 };
-const osName = platformMap[process.platform] || process.platform;
+const osName = process.env.FIREFLY_SYSTEM_OS || platformMap[process.platform] || process.platform;
 const archName = archMap[process.arch] || process.arch;
 const systemInfo = `${osName} / ${archName}`;
 
