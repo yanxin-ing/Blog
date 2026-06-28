@@ -151,6 +151,9 @@ export type SiteConfig = {
 		postsPerPage: number; // 每页显示的文章数量
 	};
 
+	// 系统平台显示（用于站点信息组件，如 "Windows 11" / "macOS"）
+	systemPlatform?: string;
+
 	// 图片优化配置
 	imageOptimization?: {
 		/**

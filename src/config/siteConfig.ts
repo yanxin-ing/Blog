@@ -114,5 +114,7 @@ export const siteConfig: SiteConfig = {
 		noReferrerDomains: [],
 	},
 
+	systemPlatform: "Windows 11",
+
 	lang: SITE_LANG,
 };
