@@ -1,13 +1,13 @@
-import type { AnnouncementConfig } from "../types/config";
+import type { AnnouncementConfig } from "../types/announcementConfig";
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "お知らせ", // 公告标题
-	content: "哼哼，假期，我已归来!", // 公告内容
-	closable: true, // 允许用户关闭公告
+	title: "お知らせ",
+	content: "哼哼，假期，我已归来!",
+	closable: true,
 	link: {
-		enable: true, // 启用链接
-		text: "戳我！", // 链接文本
-		url: "/about/", // 链接 URL
-		external: false, // 内部链接
+		enable: true,
+		text: "戳我！",
+		url: "/about/",
+		external: false,
 	},
 };
