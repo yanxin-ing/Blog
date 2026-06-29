@@ -19,6 +19,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			],
 		},
 		LinkPresets.Friends,
+		LinkPresets.Gallery,
 	];
 
 	links.push({
@@ -75,6 +76,12 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		url: "/guestbook/",
 		icon: "material-symbols:chat",
 		pageKey: "guestbook",
+	},
+	Gallery: {
+		name: "相册",
+		url: "/gallery/",
+		icon: "material-symbols:photo-library",
+		pageKey: "gallery",
 	},
 	About: {
 		name: "关于我",
